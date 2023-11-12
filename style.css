@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+* ::after {
+    margin: auto;
+    padding: auto;
+}
+
+body {
+    width: auto;
+    height: auto;
+    background-color: transparent;
+}
+
+header {
+    display: block;
+    width: device-width;
+    background: linear-gradient(245deg, #a5ccfe, #a5ffac);
+    padding: 10px 30px;
+    margin: 5px;
+}
+
+h1 {
+    display: block;
+    text-align: center;
+    font: bold 18pt "Segoe UI";
+    color: rgb(78, 214, 123)
+}
+
+h2 {
+    display: block;
+    text-align: center;
+    font: bold 14pt "Segoe UI";
+    color: rgb(60, 78, 66)
+}
+
+h3 {
+    display: block;
+    text-align: center;
+    font: bold 12pt "Segoe UI";
+    color: rgb(60, 78, 66)
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: baseline;
+    padding: 10px;
+}
+
+footer {
+    display: block;
+    justify-content: space-around;
+    align-items: center;
+    width: device-width;
+    background: linear-gradient(245deg, #a5ffac, #a5ccfe);
+    padding: 5px;
+    margin: 30px 5px 5px 5px;
+}
+
+footer > ul {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+footer > ul > li {
+	display: inline-block;
+    margin: auto 50px;
+}
+
+.header-navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.header-navigation > li {
+    display: inline-block;
+}
+
+a {
+    text-align: center;
+    font: bold 12pt "Segoe UI";
+    color: rgba(71, 75, 82, 1);
+    list-style-type: none;
+    text-decoration: none;
+}
+
+img[alt="profile-photo"] {
+    display: inline;
+    margin: 10px 20px;
+    width: 120px;
+    height: 140px;
+    border-radius: 50%;
+}
+
+img[alt="telegram"] {
+	height: 40px;
+	width: 40px;
+}
+
+img[alt="instagram"] {
+	height: 40px;
+	width: 40px;
+}
+
+img[alt="linkedin"] {
+	height: 40px;
+	width: 40px;
+}
+
+img[alt="github"] {
+	height: 40px;
+	width: 40px;
+}
+
+img[alt="rs-school-logo"] {
+    display: block;
+    width: 80px;
+    height: 30px;
+}
+
+.summary-block {
+    display: block;
+    position: relative;
+    padding: 10px;
+    margin: 5px;
+    border: 10px solid #a5ffac;
+}
+
+.summary-content > p {
+    display: block;
+    text-align: center;
+    font: normal 12pt "Segoe UI";
+    color: rgb(60, 78, 66)
+}
+
+.contacts-block {
+    display: block;
+    position: relative;
+    padding: 5px;
+    margin: 5px;
+    border-top: 10px solid #c8d8ec;
+    border-bottom: 10px solid #c8d8ec;
+}
+
+.contacts-content > p {
+    font: normal 12pt "Segoe UI";
+    color: rgb(60, 78, 66);
+    text-align: left;
+}
+
+.education-block {
+    display: block;
+    position: relative;
+    padding: 5px 25px;
+    margin: 30px 5px;
+    border-top: 10px solid rgb(173, 250, 231);
+    border-bottom: 10px solid rgb(173, 250, 231);
+}
+
+.about-block {
+    display: block;
+    position: relative;
+    padding: 15px 25px;
+    margin: 5px;
+    border: 10px solid rgb(206, 253, 87);
+}
+
+.about-block > div {
+    display: block;
+}
+
+.experience-block {
+    display: block;
+    position: relative;
+    padding: 5px 25px;
+    margin: 30px 5px;
+    border: 10px solid rgb(255, 225, 144);
+}
+
+.example-block {
+    display: block;
+    position: relative;
+    padding: 5px 25px;
+    margin: auto;
+    border: 10px solid rgb(176, 170, 255);
+}
+
+.code-block {
+    display: block;
+    padding: 5px;
+    text-align: center;
+    background: linear-gradient(34deg, rgba(210, 210, 210, 0.5), rgba(210, 210, 210, 0.5));
+}
+
